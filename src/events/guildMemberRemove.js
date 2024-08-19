@@ -43,11 +43,11 @@ module.exports = {
 
           const resetArray = Array.from({ length: 20 }, () => "");
 
-          if (data[4] === "COMISAR") resetArray[7] = "N/A";
+          if (data[4] === "GENERAL_MAIOR") resetArray[7] = "N/A";
 
           resetArray[2] = data[2];
           resetArray[4] = data[4];
-          data[4] === "COMISAR"
+          data[4] === "GENERAL_MAIOR"
             ? (resetArray[7] = "CONDUCERE")
             : (resetArray[7] = "N/A");
           resetArray[15] = data[15];
