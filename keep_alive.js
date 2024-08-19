@@ -2,5 +2,5 @@ const http = require('http');
 
   http.createServer(function ( req, res) {
      res.write("Sunt Live");
-     res.envd();
+     res.end();
   }).listen(8080);
